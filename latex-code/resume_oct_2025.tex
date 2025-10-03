@@ -1,0 +1,169 @@
+\documentclass[hidelinks, 10pt, A4]{article} %Sets the default text size to 11pt and class to article.
+\usepackage[usenames, dvipsnames]{color}
+\definecolor{mygray}{gray}{0.8}
+\definecolor{darkgray}{gray}{0.3}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=15mm,
+ right=15mm,
+ top=10mm
+ % bottom=-5mm
+ }
+\pagenumbering{gobble}
+\usepackage[sfdefault,lining]{FiraSans}
+% \renewcommand*\oldstylenums[1]{{\firaoldstyle #1}}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{fontawesome5}
+\usepackage{scalerel,stackengine}
+\usepackage{hyperref}
+
+% \newcommand\srcircled[1]{%
+%   \stackinset{c}{}{c}{-.2ex}{\scalerel*{$#1$}{x}}{\textcircled{\strut}}}
+% \usepackage{newtxsf}
+% \newcommand{\srcircled}[1]{\textcircled{\scriptsize #1}}
+% \usepackage{tikz}
+% \newcommand{\srcircled}[1]{%
+%   \tikz[baseline=(char.base)]{
+%     \node[shape=circle,draw,inner sep=1pt] (char) {#1};}}
+
+
+%These two pieces of code tell LaTeX that everything that goes in between these tags is what you want displayed as your actual document.
+\usepackage{mwe}
+\usepackage[markcase=noupper% remove the uppercasing
+]{scrlayer-scrpage}
+
+% Color DEFINITIONS
+\usepackage{color}
+
+%accent color
+\definecolor{sectcol}{RGB}{0,150,255}
+%dark background color
+\definecolor{bgcol}{RGB}{110,110,110}
+%light background / accent color
+\definecolor{softcol}{RGB}{225,225,225}
+
+% \ifoot{\centerline{\srcircled{\faEnvelope} indraneil.bardhan@gmail.com \par \srcircled{\faMobile} 412-961-5794 \par \srcircled{\faLocationArrow} San Francisco, CA \par}}% Name and title beneath each other in the inner part of the foot
+\setlength{\footheight}{-5pt}
+\begin{document}
+
+%%%% Name and address header %%%%
+\centerline{{\Huge Indraneil Bardhan}}  %Makes whatever text you put in parenthesis move to the center
+%Prevents the following text from being indented
+%This is the same as a return in Latex
+% \smallskip
+% \centerline{\fontsize{12}{12}\selectfont Data Scientist}
+% \centerline{Stamford, Connecticut}
+% \centerline{\faEnvelope \hspace{5pt} \textbullet \hspace{5pt} \faLinkedin \hspace{5pt} \textbullet \hspace{5pt} \faGithub}
+% \centerline{\href{mailto:indraneil.bardhan@gmail.com} {\srcircled{\faEnvelope}} \par \hspace{3pt} \href{https://www.linkedin.com/in/neilbardhan}{\srcircled{\faLinkedin}} \par \hspace{3pt} \href{https://github.com/neilbardhan}{\srcircled{\faGithub}} \par}
+
+\noindent
+%\line(1,0){470}\\
+{\color{mygray} \hrulefill }
+\medskip
+
+%%%% Profile %%%%
+\noindent {\Large \textcolor{sectcol}{ Summary}} \hspace{5pt} %Don’t indent this line and make it bold and large
+\medskip
+\noindent
+\\
+Machine Learning Engineer with experience in deploying leading edge machine learning models on a wide range of cloud data platforms and unlocking potential hidden in large scale data systems. Eager to bring expertise and fresh ideas to innovative organization in challenging new role.
+\\ 
+\medskip
+% \bigskip
+{\color{mygray} \hrulefill }
+
+\noindent{\Large \textcolor{sectcol}{Skills}} \hspace{5pt}
+\medskip
+\noindent{\\} %Make sure that there is no line-skip for as long as you want this effect
+% Proficient in the following programming languages: \\
+% \centerline{\hfill $\bullet$ Regression Analysis \hfill $\bullet$ GBMs \hfill $\bullet$ Forecasting \hfill $\bullet$ Clustering \hfill $\bullet$ Recommender Systems \hfill $\bullet$ Location Intelligence}
+\textbf{Focus Areas:} MLOps, Predictive Modeling, Deep Learning, Recommender Systems, Data Engineering
+\\
+\smallskip
+% \centerline{\hfill $\bullet$ Python \hfill $\bullet$ seaborn \hfill $\bullet$ XGBoost \hfill $\bullet$ scikit-learn \hfill $\bullet$ numpy \hfill $\bullet$ pandas \hfill $\bullet$ ggplot2 }\\
+\textbf{Programming:} Python, scikit-learn, h2o, MLLib, numpy, SciPy, geopandas, SHAP, matplotlib, plotly, R, tidyverse, ggplot2, mlr3, SQL
+\\
+\smallskip
+\textbf{Frameworks:} TensorFlow, PyTorch, PySpark, HIVE, BigQuery, elasticsearch, Google Cloud Platform (GCP), Amazon Web Services
+\\
+% Clear understanding of and extensive experience with the following frameworks: \\
+% \centerline{\hfill $\bullet$ R \hfill $\bullet$ SQL \hfill $\bullet$ Hive/Impala\hfill $\bullet$ Apache Spark \hfill $\bullet$ Google Cloud Platform \hfill $\bullet$ Tensorflow \hfill $\bullet$ AWS}\\ \medskip
+{\color{mygray} \hrulefill }
+\medskip
+
+%%%% Experience %%%%
+\noindent{\Large \textcolor{sectcol}{Professional Experience}} \medskip
+
+\noindent \centerline{\large \textbf{Senior Machine Learning Engineer} \textcolor{bgcol}{ - Climate/Bayer}
+\hfill \it Aug 2024 - Present}
+\begin{itemize}
+  \item Developed, validated and released an internal \textbf{Machine Learning Framework} for the \textbf{ML Research and Development group} to super-charge model training, testing, deployment and monitoring using \textbf{AWS SageMaker} and \textbf{Python}, reducing the time to production by 70\%.
+  \item Conducted \textbf{technical bootcamps} for domain knowledge experts to help them leverage Machine Learning best practices and adopt a \textbf{MLOps} mindset while building new AI Products for Climate FieldView with the goal of \textbf{improving operational efectiveness} and reducing the time to go to market.
+\end{itemize}
+
+\medskip
+
+\noindent{\Large \textcolor{sectcol}{Professional Experience}} \medskip
+
+\noindent \centerline{\large \textbf{Machine Learning Engineer} \textcolor{bgcol}{ - Climate/Bayer}
+\hfill \it July 2021 - July 2024}
+\begin{itemize}
+  \item Productionized and deployed a \textbf{Bayesian Hybrid Pairing Recommendation} model using \textbf{PySTAN}, \textbf{Docker} and \textbf{AWS EC2} to deliver personalized seed hybrid recommendations into Climate FieldView, leading to an improvement in win rate by 45\%.
+  \item Productionized and deployed a \textbf{portfolio optimization} model for soy seed hybrids using \textbf{PySpark}, \textbf{Airflow} and \textbf{AWS EC2} to provide farmers with optimal seed hybrid portfolios.
+\end{itemize}
+
+\medskip
+
+\noindent \centerline{\large \textbf{Senior Data Scientist} \textcolor{bgcol}{ - r4 AI}
+\hfill \it May 2020 - July 2021}
+\begin{itemize}
+  % \item Prototyped and implemented highly scalable, end-to-end volumetric forecasting pipelines with \textbf{SciPy}, \textbf{PySpark} and \textbf{statsmodels}, for XEM; R4's proprietary AI product.
+  \item Developed and evaluated \textbf{demand forecasting} models using \textbf{ARIMA}, \textbf{Holt-Winters} and \textbf{XGBoost} to help develop quarterly roadmaps to drive asset placement for a lumber manufacturer, leading to an overall lift of \$3M.
+  \item Designed and deployed a \textbf{product recommendations} workflow to feed email promotions for an online sports retailer using \textbf{K-means} and \textbf{Collaborative Filtering}, doubling the conversion rate.
+  % \item Identified high potential locations for an alcohol distributor, by deploying a restaurant menu scraper using \textbf{BeautifulSoup}, \textbf{requests} and \textbf{NLTK}, increasing revenue from sales by over 25\%.
+  \item Built and automated end to end \textbf{data pipelines} using \textbf{requests}, \textbf{BeautifulSoup}, \textbf{NLTK} and \textbf{cron} to identify high potential locations for a beverage manufacturer, increasing revenue from sales by 25\%.
+\end{itemize}
+
+\medskip
+
+\noindent \centerline{\large \textbf{Data Scientist} \textcolor{bgcol}{ - r4 AI}
+\hfill \it April 2017 - May 2020}
+\begin{itemize}
+  \item Scaled a \textbf{location intelligence} model for a credit card provider, using \textbf{Rtree}, \textbf{shapely} and \textbf{geopandas} libraries, increasing coverage area by 80\%.
+  \item Prototyped a scalable \textbf{topic modeling} system on \textbf{PySpark} using \textbf{NLTK} and \textbf{LDA} on \textbf{gensim}, for an executive talent acquisition firm, improving time efficiency by 50\%.
+  \item Implemented \textbf{survival analysis} using \textbf{lifelines} and \textbf{Scikit-learn} for a manufacturing company, reducing unplanned stoppages by 35\%.
+\end{itemize}
+
+{\color{mygray} \hrulefill }
+\medskip
+
+%%%% Education %%%%
+\noindent{\Large \textcolor{sectcol}{Education}}\medskip
+
+\noindent \centerline{\large \textbf{M. S. Information Science (Big Data Analytics)} \textcolor{bgcol}{ - University of Pittsburgh} \hfill \it {2015 - 2016}}
+
+\noindent \centerline{\large \textbf{B. Engg. Computer Engineering} \textcolor{bgcol}{ - University of Pune} \hfill \it {2011 - 2015}}
+
+\medskip %This makes a large line-skip \smallskip is also a command but has a smaller gap
+{\color{mygray} \hrulefill }
+% \medskip
+% \noindent\rule{170mm}{1pt}
+% \medskip
+% \null
+% \vspace*{\fill}
+% \hspace{-0.25\linewidth}\colorbox{white}
+% {
+  % \makebox[1.5\linewidth][c]
+  % {
+  %   \mystrut
+  %   \textnormal
+  %   {
+  %     % \textcolor{sectcol}{\faEnvelope\; indraneil.bardhan@gmail.com}
+  %     \textcolor{sectcol}{\srcircled{\faEnvelope}\; indraneil.bardhan@gmail.com}
+  %   }
+  % }
+% }
+
+\end{document}
