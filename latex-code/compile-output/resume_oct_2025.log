@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.3)  3 OCT 2025 23:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.3)  3 OCT 2025 23:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -564,7 +564,7 @@ Package scrlayer-scrpage Warning: \footheight to low.
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2025/texmf-dist/fonts/enc/dvips/fira/fir_ugbesn.enc}{/usr/local/texl
 ive/2025/texmf-dist/fonts/enc/dvips/fira/fir_d67aat.enc}]
-(./resume_oct_2025.aux)
+(./compile-output/resume_oct_2025.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
@@ -580,8 +580,8 @@ Package rerunfilecheck Info: Checksums for `resume_oct_2025.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 15579 strings out of 469220
- 300125 string characters out of 5463324
+ 15580 strings out of 469220
+ 300200 string characters out of 5463324
  737106 words of memory out of 5000000
  43889 multiletter control sequences out of 15000+600000
  661646 words of font info for 50 fonts, out of 8000000 for 9000
@@ -591,7 +591,7 @@ Here is how much of TeX's memory you used:
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/fira/FiraSans-Italic.pf
 b></usr/local/texlive/2025/texmf-dist/fonts/type1/public/fira/FiraSans-Regular.
 pfb>
-Output written on ./resume_oct_2025.pdf (1 page, 134539 bytes).
+Output written on ./compile-output/resume_oct_2025.pdf (1 page, 134539 bytes).
 PDF statistics:
  33 PDF objects out of 1000 (max. 8388607)
  22 compressed objects within 1 object stream

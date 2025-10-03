@@ -23,8 +23,8 @@ RUN wget https://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz \
 ENV PATH="/usr/local/texlive/2025/bin/x86_64-linux:${PATH}"
 
 # Add compile script
-COPY scripts/latex_setup.sh /usr/local/bin/latex_setup.sh
-RUN chmod +x /usr/local/bin/latex_setup.sh
+COPY scripts/latex_compile.sh /usr/local/bin/latex_compile.sh
+RUN chmod +x /usr/local/bin/latex_compile.sh
 
 WORKDIR /data
-ENTRYPOINT ["latex_setup.sh"]
+ENTRYPOINT ["latex_compile.sh"]

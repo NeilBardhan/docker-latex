@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.3)  3 OCT 2025 22:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.3)  3 OCT 2025 23:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -72,15 +72,15 @@ nput line 5.
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}]
-(./sample.aux)
+(./compile-output/sample.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3556 strings out of 469220
- 77785 string characters out of 5463324
+ 3557 strings out of 469220
+ 77860 string characters out of 5463324
  447443 words of memory out of 5000000
  32094 multiletter control sequences out of 15000+600000
  628303 words of font info for 42 fonts, out of 8000000 for 9000
@@ -90,7 +90,7 @@ Here is how much of TeX's memory you used:
 me5Free-Regular.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/font
 awesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2025/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmr10.pfb>
-Output written on ./sample.pdf (1 page, 26545 bytes).
+Output written on ./compile-output/sample.pdf (1 page, 26545 bytes).
 PDF statistics:
  24 PDF objects out of 1000 (max. 8388607)
  14 compressed objects within 1 object stream

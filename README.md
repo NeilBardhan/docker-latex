@@ -10,8 +10,10 @@ docker build -t dockerlatex .
 ```
 
   2. Copy `.tex` files to `latex-code`
-  3. Run the docker container with
+  3. Run the docker container with : 
 
 ```bash
 docker run --rm -v $(pwd)/latex-code:/data dockerlatex {TEX_FILE_NAME}.tex
 ```
+
+The compiled pdf files will be saved in `latex-code/compile-output`.
